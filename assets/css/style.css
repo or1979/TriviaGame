@@ -1,0 +1,25 @@
+body {
+    background-image: repeating-radial-gradient(circle at 0 0, orange, white, yellow);
+
+}
+
+
+#triviaContainer {
+    background: red;
+    color: orange;
+    width: 760px;
+    margin: 200px;
+}
+
+#questions  {
+    visibility: hidden;
+}
+
+#start-timer    {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: silver;
+}

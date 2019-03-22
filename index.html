@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IR-edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>Trivia</title>
+</head>
+
+<body>
+
+    <div id="triviaContainer">
+        <div class="jumbotron text center">
+
+            <h1>Trivia Game</h1>
+
+
+            <div class="btnContainer">
+
+                <btn type="button" id="start-btn" class="btn btn-default btn-primary btn-xl startBtn">Start </btn>
+            </div>
+        </div>
+        </br>
+
+
+        <div id="trivaQuestions">
+
+
+
+            <section>
+                <div id="questions">
+                    <div id="start-timer">Time Remaining:</div>
+                    <br>
+                    <h2>Fashion Designer Trivia</h2>
+                    <form name="fashionForm" id="fashionForm">
+                        <p>1. Gianni Versace did his first apprenticeship where?</p>
+                        <input type="radio" name="question1" value="a" id="ans1">a. aunt's dressmaking boutique<br>
+                        <input type="radio" name="question1" value="b" id="ans1">b. Christian Dior atelier<br>
+                        <input type="radio" name="question1" value="c" id="ans1">c. mother's sewing business<br>
+                        <input type="radio" name="question1" value="d" id="ans1">d. Saville Row<br>
+
+                        <p>2. Chanel has used the famed interlocked-CC monogram since the?</p>
+                        <input type="radio" name="question2" value="a" id="ans2">a. 1920's<br>
+                        <input type="radio" name="question2" value="b" id="ans2">b. 1940's<br>
+                        <input type="radio" name="question2" value="c" id="ans2">c. 1950's<br>
+                        <input type="radio" name="question2" value="d" id="ans2">d. 1890's<br>
+
+                        <p>3. How many fashion houses is Karl Lagerfeld design for?</p>
+                        <input type="radio" name="question3" value="a" id="ans3">a. 2<br>
+                        <input type="radio" name="question3" value="b" id="ans3">b. 8<br>
+                        <input type="radio" name="question3" value="c" id="ans3">c. 3<br>
+                        <input type="radio" name="question3" value="c" id="ans3">d. 6<br>
+
+                        <p>4. Virgil Abloh founded Off-White in?</p>
+                        <input type="radio" name="question4" value="a" id="ans4">a. 2015<br>
+                        <input type="radio" name="question4" value="b" id="ans4">b. 2013<br>
+                        <input type="radio" name="question4" value="c" id="ans4">c. 2016<br>
+                        <input type="radio" name="question4" value="d" id="ans4">d. 2018<br>
+
+                        <p>5. Diane von Furstenberg is known for her?</p>
+                        <input type="radio" name="question5" value="a" id="ans5">a. jersey "wrap dress"<br>
+                        <input type="radio" name="question5" value="b" id="ans5">b. gold platform heels<br>
+                        <input type="radio" name="question5" value="c" id="ans5">c. printed silk skirts<br>
+                        <input type="radio" name="question5" value="d" id="ans5">d. outrageous hair<br>
+
+                        <p>6. Who is the founder of Gucci?</p>
+                        <input type="radio" name="question6" value="a" id="ans6">a. Aldo Gucci<br>
+                        <input type="radio" name="question6" value="b" id="ans6">b. Guccio Gucci<br>
+                        <input type="radio" name="question6" value="c" id="ans6">c. Gucci Mane<br>
+                        <input type="radio" name="question6" value="d" id="ans6">d. Rodolfo Gucci<br>
+
+                        <p>7. Which fashion house has been in business since 1837?</p>
+                        <input type="radio" name="question7" value="a" id="ans7">a. Louis Vuitton<br>
+                        <input type="radio" name="question7" value="b" id="ans7">b. Lanvin<br>
+                        <input type="radio" name="question7" value="c" id="ans7">c. Prada<br>
+                        <input type="radio" name="question7" value="d" id="ans7">d. Hermes<br>
+
+                        <br>
+                        <input type="submit" value="Submit" onclick="done ();">
+
+
+                    </form>
+                </div>
+                <div id="afterSubmit">
+                    <p id="message"></p>
+                    <p id="score"></p>
+                    <img id="pics">
+                </div>
+            </section>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+<footer>
+    <p>Orran Robinson Copyright &copy; 2019</p>
+</footer>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
